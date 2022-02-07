@@ -1,0 +1,114 @@
+.fontFamily {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+}
+.padding {
+    padding: 5% 15%;
+}
+
+.flex {
+    display: flex;
+}
+
+.columnFlex {
+    flex-direction: column;
+}
+
+.list {
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.foodIcon {
+    background-color: #ffe32c;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: fit-content;
+    border: none;
+}
+
+.foodIcon:hover {
+    background-color: #ffc82a;
+}
+
+.foodList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: unset;
+    margin: unset;
+}
+
+.mealList {
+    list-style: none;
+    height:100%;
+    width: 100%;
+    padding: unset;
+}
+
+.desc{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+.form {
+    width: 50%; 
+    height: auto;
+    border-left: solid 1px #ffefd3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.detailEl {
+    margin: 10px;
+}
+
+.saveBtn {
+    width: 50px;
+    align-self: center;
+    background-color:  #feAA1A;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+
+.saveBtn:hover {
+    background-color: #ffc82a
+}
+
+.saveBtn:disabled {
+    background-color: #909090;
+}
+
+.mealItem {
+  margin: 0px 0px 0px 20px;  
+}
+
+.createTitle {
+    margin: 10px;
+}
+
+.MealsContainer {
+    position: absolute;
+    top: 50%;
+}
+
+.mealDesc {
+    padding: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
